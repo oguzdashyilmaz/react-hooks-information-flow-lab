@@ -3,9 +3,9 @@ import React from 'react';
 function Header({onDarkModeClick, isDarkMode}) {
   return (
     <header>
-      <h1>Shopster</h1>
+      <h2>Shopster</h2>
       <button onClick={onDarkModeClick}>
-        {isDarkMode ? "dark" : "light"} Mode
+        {isDarkMode ? "Dark" : "Light"} Mode
       </button>
     </header>
   );

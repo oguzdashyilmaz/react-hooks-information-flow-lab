@@ -9,6 +9,6 @@ function Filter({onCategoryChange}) {
             <option value="Dessert">Dessert</option>
         </select>
     );
-};
+}
 
 export default Filter;
